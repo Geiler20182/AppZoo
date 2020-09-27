@@ -5,8 +5,9 @@ import { Link, Router } from 'react-router-dom';
 //import { Route, Switch } from 'react-router-dom';
 //import { BrowserRouter as Router } from 'react-router-dom';
 /* Components */
-import Navbar from './components/NavBar/Navbar'
+import Navbar from './components/Home/NavBar/Navbar'
 import Animals from './components/Animals/Animals'
+import ZooTienda from './components/ZooTienda/ZooTienda'
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -22,7 +23,8 @@ class App extends Component {
 
         <Switch>
 
-          <Route path='/' exact>  
+          <Route path='/ZooTienda' exact>
+            <ZooTienda></ZooTienda>
           </Route>
 
           <Route path = '/Animals' exact> 

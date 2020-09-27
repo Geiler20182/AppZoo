@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Animals from '../Animals/Animals'
+import Animals from '../../Animals/Animals'
 import { Link, Router } from 'react-router-dom';
 
 class Navbar extends Component {
@@ -9,9 +9,9 @@ class Navbar extends Component {
         return (
             <React.Fragment>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="#" style = {{'margin-right' : '32%', 'font-size' : '25px'}}>
                         <Link to='/'>
-                            ZooTienda
+                            INICIO
                         </Link>
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,18 +19,11 @@ class Navbar extends Component {
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
+                        <ul className="navbar-nav mr-auto" style = {{'font-size' : '22px'}}>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
                                     <Link to='/Animals'>
                                         Animales
-                                    </Link>
-                                </a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">
-                                    <Link to='/'>
-                                        ZooTienda
                                     </Link>
                                 </a>
                             </li>
@@ -44,13 +37,21 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
                                     <Link to='/'>
+                                        Mapa
+                                    </Link>
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">
+                                    <Link to='/'>
                                         Ayuda
                                     </Link>
                                 </a>
                             </li>
                         </ul>
+                        <Link to='/ZooTienda'><img src = "" width = "50" height = "50"/></Link>
                         <form className="form-inline my-2 my-lg-0">
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Iniciar Sesion</button>
+                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" style = {{'margin-left' : '200px'}}>Sign In</button>
                         </form>
                     </div>
                 </nav>
