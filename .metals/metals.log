@@ -1,0 +1,8 @@
+2020.09.28 08:30:31 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\HP\Desktop\Universidad\Cuarto Semestre\Diseño de Interfaces\Zoo' for client vscode.
+2020.09.28 08:30:32 INFO  time: initialize in 1.13s
+2020.09.28 08:30:38 WARN  no build tool detected in workspace 'C:\Users\HP\Desktop\Universidad\Cuarto Semestre\Diseño de Interfaces\Zoo'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.28 08:33:46 INFO  shutting down Metals
+2020.09.28 11:17:41 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\HP\Desktop\Universidad\Cuarto Semestre\Diseño de Interfaces\Zoo' for client vscode.
+2020.09.28 11:17:44 INFO  time: initialize in 2.38s
+2020.09.28 11:17:48 WARN  no build tool detected in workspace 'C:\Users\HP\Desktop\Universidad\Cuarto Semestre\Diseño de Interfaces\Zoo'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.28 11:32:52 INFO  shutting down Metals
