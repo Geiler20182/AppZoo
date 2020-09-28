@@ -10,7 +10,7 @@ import Animals from './components/Animals/Animals'
 import ZooTienda from './components/ZooTienda/ZooTienda'
 import Footer from './components/Home/Footer/Footer'
 import Seccion1 from './components/Home/Secciones/s1/Seccion1'
-import Seccion2 from './components/Home/Secciones/Seccion2'
+import Seccion2 from './components/Home/Secciones/s2/Seccion2'
 import Seccion3 from './components/Home/Secciones/Seccion3'
 import Seccion4 from './components/Home/Secciones/Seccion4'
 import Seccion5 from './components/Home/Secciones/Seccion5'
@@ -44,9 +44,13 @@ class App extends Component {
         </Switch>
        
        <Seccion1></Seccion1>
+       <hr></hr>
        <Seccion2></Seccion2>
+       <hr></hr>
        <Seccion3></Seccion3>
+       <hr></hr>
        <Seccion4></Seccion4>
+       <hr></hr>
        <Seccion5></Seccion5>
         
        <Footer/>

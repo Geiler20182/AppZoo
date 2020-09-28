@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
 import Animals from '../../Animals/Animals'
 import { Link, Router } from 'react-router-dom';
+import './Navbar.css'
 
 class Navbar extends Component {
-    
     render() {
-
         return (
             <React.Fragment>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light" style = {{'background-color' : '#72bb53'}}>
-                    <a className="navbar-brand" href="#" style = {{'margin-right' : '32%', 'font-size' : '25px'}}>
+                <nav className="navbar navbar-expand-lg navbar-light fondo">
+                    <a className="navbar-brand" style = {{'margin-right' : '32%', 'font-size' : '25px'}}>
                         <Link to='/'>
                             INICIO
                         </Link>
