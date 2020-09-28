@@ -6,8 +6,8 @@ class Footer extends Component {
             <footer class="page-footer font-small indigo" style = {{'background-color' : ' #e1e2e1'}}>
                 <div class="container text-center text-md-left">
                     <div class="row">
-                        <div class="col-md-3 mx-auto">
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+                        <div class="col-md-3 mx-auto" style = {{'margin-right' : '400px'}}>
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style = {{'margin-right' : '300px'}}>Imagen de zoológico</h5>
                         </div>
 
                         <hr class="clearfix w-100 d-md-none"/>
@@ -66,9 +66,7 @@ class Footer extends Component {
                     </div>
                 </div>
 
-            <div class="footer-copyright text-center py-3" style = {{'background-color' : ' #a9aaa9'}}>© 2020 Copyright:
-                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-            </div>
+            <div class="footer-copyright text-center py-3" style = {{'background-color' : ' #a9aaa9'}}>© 2020 Copyright: Zoológico de Cali</div>
 
             </footer>
         );

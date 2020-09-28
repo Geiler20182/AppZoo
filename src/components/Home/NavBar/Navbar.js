@@ -8,7 +8,7 @@ class Navbar extends Component {
 
         return (
             <React.Fragment>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light" style = {{'background-color' : '#72bb53'}}>
                     <a className="navbar-brand" href="#" style = {{'margin-right' : '32%', 'font-size' : '25px'}}>
                         <Link to='/'>
                             INICIO
