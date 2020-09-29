@@ -8,3 +8,8 @@
     text-align: center;
     padding-top: 13px;
 }
+
+.card-text {
+    color :#565856;
+    text-align: justify;
+}

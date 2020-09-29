@@ -12,8 +12,8 @@ import Footer from './components/Home/Footer/Footer'
 import Seccion1 from './components/Home/Secciones/s1/Seccion1'
 import Seccion2 from './components/Home/Secciones/s2/Seccion2'
 import Seccion3 from './components/Home/Secciones/s3/Seccion3'
-import Seccion4 from './components/Home/Secciones/Seccion4'
-import Seccion5 from './components/Home/Secciones/Seccion5'
+import Seccion4 from './components/Home/Secciones/s4/Seccion4'
+import Seccion5 from './components/Home/Secciones/s5/Seccion5'
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';

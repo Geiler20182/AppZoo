@@ -1,0 +1,36 @@
+.titulo4 {
+    text-align: center;
+    font-family: Tahoma;
+    padding-top: 20px;
+}
+
+.texto4 {
+    text-align: center;
+    color:#939993;
+    padding-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.boton4 {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: 44.5%;
+    margin-top: 15px;
+}
+
+.boton4:hover {
+    background-color:#4CAF50;
+    color: white;
+    font-weight: bold;
+}
