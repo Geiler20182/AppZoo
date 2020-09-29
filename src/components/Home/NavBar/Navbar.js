@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Animals from '../../Animals/Animals'
 import { Link, Router } from 'react-router-dom';
 import './Navbar.css'
+import imagen from './bolsa-de-la-compra.png';
 
 class Navbar extends Component {
     render() {
@@ -48,7 +49,7 @@ class Navbar extends Component {
                                 </a>
                             </li>
                         </ul>
-                        <Link to='/ZooTienda'><img src = "" width = "50" height = "50"/></Link>
+                        <Link to='/ZooTienda'><img src = {imagen} width = "40" height = "40"/></Link>
                         <form className="form-inline my-2 my-lg-0">
                             <button className="btn btn-outline-success my-2 my-sm-0" type="submit" style = {{'margin-left' : '200px'}}>Sign In</button>
                         </form>

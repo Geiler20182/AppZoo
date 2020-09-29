@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Seccion1.css';
+import imagen from './perritos-praderas-redes.jpg'
 
 class Seccion1 extends Component {
     render() {
@@ -13,7 +14,7 @@ class Seccion1 extends Component {
                     encuentra un parrafo muy largo solamente para probar los límites de esta parte.</p>
                 </div>
                 <div className = "columna imgS1">
-                    <img src = "" width = "400" height = "400"/>
+                    <img src = {imagen} width = "430" height = "360"/>
                 </div>
             </div>
         );
