@@ -14,6 +14,7 @@ import Seccion2 from './components/Home/Secciones/s2/Seccion2'
 import Seccion3 from './components/Home/Secciones/s3/Seccion3'
 import Seccion4 from './components/Home/Secciones/s4/Seccion4'
 import Seccion5 from './components/Home/Secciones/s5/Seccion5'
+import Who from './components/About/Who';
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -37,7 +38,20 @@ class App extends Component {
             <Animals/>
           </Route>
 
-          <Route path = '/'> 
+          <Route path = '/Who' exact>
+            <Who></Who>
+          </Route>
+
+          <Route path = '/'>
+          <Seccion1></Seccion1>
+          <hr></hr>
+          <Seccion2></Seccion2>
+          <hr></hr>
+          <Seccion3></Seccion3>
+          <hr></hr>
+          <Seccion4></Seccion4>
+          <hr></hr>
+          <Seccion5></Seccion5> 
           </Route>
 
           <Route path = '/Mapa' exact>
@@ -45,16 +59,6 @@ class App extends Component {
 
         
         </Switch>
-       
-       <Seccion1></Seccion1>
-       <hr></hr>
-       <Seccion2></Seccion2>
-       <hr></hr>
-       <Seccion3></Seccion3>
-       <hr></hr>
-       <Seccion4></Seccion4>
-       <hr></hr>
-       <Seccion5></Seccion5>
         
        <Footer/>
 

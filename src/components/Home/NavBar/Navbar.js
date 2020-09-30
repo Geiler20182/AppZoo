@@ -10,7 +10,7 @@ class Navbar extends Component {
             <React.Fragment>
                 <nav className="navbar navbar-expand-lg navbar-light fondo">
                     <a className="navbar-brand" style = {{'margin-right' : '32%', 'font-size' : '25px'}}>
-                        <Link to='/'>
+                        <Link className = "links" to='/'>
                             INICIO
                         </Link>
                     </a>
@@ -22,37 +22,37 @@ class Navbar extends Component {
                         <ul className="navbar-nav mr-auto" style = {{'font-size' : '22px'}}>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <Link to='/Animals'>
+                                    <Link className = "links" to='/Animals'>
                                         Animales
                                     </Link>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <Link to='/'>
+                                    <Link className = "links" to='/Who'>
                                         ¿Quienes somos?
                                     </Link>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <Link to='/'>
+                                    <Link className = "links" to='/'>
                                         Mapa
                                     </Link>
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <Link to='/'>
+                                    <Link className = "links" to='/'>
                                         Ayuda
                                     </Link>
                                 </a>
                             </li>
                         </ul>
-                        <Link to='/ZooTienda'><img src = {imagen} width = "40" height = "40"/></Link>
-                        <form className="form-inline my-2 my-lg-0">
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit" style = {{'margin-left' : '200px'}}>Sign In</button>
-                        </form>
+                        <div>
+                            <Link to='/ZooTienda'><img className = "imagenT" src = {imagen} width = "40" height = "40"/></Link>
+                        </div>
+                        <Link><button className = "boton1"><span>Sign In</span></button></Link>
                     </div>
                 </nav>
             </React.Fragment>

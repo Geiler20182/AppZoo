@@ -1,9 +1,9 @@
-.row {
+.row2 {
     box-sizing: border-box;
     padding-top: 25px;
 }
 
-.columna {
+.columna2 {
     float: left;
     padding: 10px;
 }
@@ -21,17 +21,17 @@
 }
 
 .a1 {
-    padding-left: 15%;
     text-align: center;
+    padding-left: 10%;
 }
 
 .a2 {
-    padding-left: 21%;
+    padding-left: 25.5%;
     text-align: center;
 }
 
 .a3 {
-    padding-left: 21%;
+    padding-left: 23%;
     text-align: center;
 }
 
