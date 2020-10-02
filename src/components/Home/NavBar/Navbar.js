@@ -52,7 +52,7 @@ class Navbar extends Component {
                         <div>
                             <Link to='/ZooTienda'><img className = "imagenT" src = {imagen} width = "40" height = "40"/></Link>
                         </div>
-                        <Link><button className = "boton1"><span>Sign In</span></button></Link>
+                        {/*<Link><button className = "boton1"><span>Sign In</span></button></Link>*/}
                     </div>
                 </nav>
             </React.Fragment>
