@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Who.css';
 import imagen from './zoológico-de-cali-1280x720.jpg';
+// import videoZoo from './';
 
 class Who extends Component {
     render() {
@@ -23,6 +24,12 @@ class Who extends Component {
                     <h1 className = "titulo2">Historia del Zoológico</h1>
                     <p className = "contenido2">Información que salva.</p>
                     <img className = "imgS5" src = "" width = "300" height = "300"/>
+                </div>
+                <hr></hr>
+                <div>
+                    <h1 className = "titulo3">CaliZoo</h1>
+                    <iframe className = "videoZoo" width = "500" height = "500" src = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    </iframe>
                 </div>
             </div>
         );
