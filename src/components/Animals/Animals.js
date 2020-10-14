@@ -6,7 +6,7 @@ class Animals extends Component {
     render() {
 
         return(
-            <h5>En proceso</h5>
+            <h5>En proceso...</h5>
         );
     }
 
