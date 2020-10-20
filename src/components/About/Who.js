@@ -48,7 +48,7 @@ class Who extends Component {
                 <hr></hr>
                 <div>
                     <h1 className = "titulo3">CaliZoo</h1>
-                    <iframe className = "videoZoo" width = "1000" height = "550" src = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <iframe className = "videoZoo" width = "1000" height = "550" src = "https://www.youtube.com/watch?v=_XxWKrzpZzA">
                     </iframe>
                 </div>
             </div>
