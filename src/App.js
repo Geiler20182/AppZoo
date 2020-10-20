@@ -5,7 +5,7 @@ import { Link, Router } from 'react-router-dom';
 //import { Route, Switch } from 'react-router-dom';
 //import { BrowserRouter as Router } from 'react-router-dom';
 /* Components */
-import Navbar from './components/Home/NavBar/Navbar'
+import Navbar from './components/NavBar/Navbar'
 import Animals from './components/Animals/Animals'
 import ZooTienda from './components/ZooTienda/ZooTienda'
 import Footer from './components/Home/Footer/Footer'
@@ -15,6 +15,7 @@ import Seccion3 from './components/Home/Secciones/s3/Seccion3'
 import Seccion4 from './components/Home/Secciones/s4/Seccion4'
 import Seccion5 from './components/Home/Secciones/s5/Seccion5'
 import Who from './components/About/Who';
+import Mapa from './components/Mapa/Mapa';
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -26,7 +27,7 @@ class App extends Component {
 
       <div className="">
 
-       <Navbar/>
+        <Navbar></Navbar>
 
         <Switch>
 
@@ -55,6 +56,7 @@ class App extends Component {
           </Route>
 
           <Route path = '/Mapa' exact>
+            <Mapa></Mapa>
           </Route>
 
         

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Animals from '../../Animals/Animals'
+import Animals from '../Animals/Animals'
 import { Link, Router } from 'react-router-dom';
 import './Navbar.css'
 import imagen from './bolsa-de-la-compra.png';
@@ -36,7 +36,7 @@ class Navbar extends Component {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                    <Link className = "links" to='/'>
+                                    <Link className = "links" to='/Mapa'>
                                         Mapa
                                     </Link>
                                 </a>

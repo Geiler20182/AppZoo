@@ -147,7 +147,7 @@ opacity: 1;
     /* margin-right: -15px; */
     /* margin-left: -15px; */
     padding: 2px 74px;
-    text-align: center;
+	text-align: center;
 }
 .row_cat {
     display: flex;

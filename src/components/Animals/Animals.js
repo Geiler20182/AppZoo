@@ -22,7 +22,7 @@ class Animals extends Component {
 
         return(
             <div>
-              <h1>Animales - Anfibios</h1>
+              <h1 className = "tituloAnimales">Animales - Anfibios</h1>
               <div className="row_cat">
                 {/*<h1>Animales</h1>
                 <h2>Categorias</h2>*/}
