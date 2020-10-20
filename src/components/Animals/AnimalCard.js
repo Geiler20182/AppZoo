@@ -1,6 +1,8 @@
 
 import React, { Component } from 'react';
 import { Link, Router } from 'react-router-dom';
+import { connect } from 'react-redux';
+import { setAnimal } from '../../actions/animal';
 
 class AnimalCard extends Component {
 
@@ -15,7 +17,8 @@ class AnimalCard extends Component {
                     <img src={this.props.animal.src} alt="1"/>
                     <div className="overlay">
                     <Link  className="buy-btn" onClick = {this.onAnimalCardSelect}
-                        to = {"Animales/" + this.props.animal.title }>
+                        to = '/Animal' 
+                        >
                         Saber más!
                     </Link>
                     </div>
@@ -33,13 +36,21 @@ class AnimalCard extends Component {
 
     constructor(props) {
         super(props);
-        console.log(this.props);
+        //console.log(this.props);
         this.onAnimalCardSelect = this.onAnimalCardSelect.bind(this);
     }
 
     onAnimalCardSelect() {
-        this.props.onAnimalSelect(this.props.animal);
+        this.props.setAnimal(this.props.animal);
+        
+        //this.props.onAnimalSelect(this.props.animal);
+    
     }
+
 }
 
-export default AnimalCard;
+const mapStateToActions = {
+    setAnimal
+};
+
+export default connect(null, mapStateToActions )(AnimalCard);
