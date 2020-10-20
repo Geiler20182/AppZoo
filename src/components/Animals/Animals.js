@@ -3,9 +3,11 @@ import './Animals.css';
 import AnimalDescripton from './AnimalDescription';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import AnimalCard from './AnimalCard';
-
-/* Pruebas */
+import { connect } from 'react-redux';
+import { setAnimal } from '../../actions/animal';
+/* Pruebas 
 import animals from './Test';
+*/
 
 /* Categorias */
 
@@ -23,6 +25,7 @@ class Animals extends Component {
         return(
             <div>
               <h1 className = "tituloAnimales">Animales - Anfibios</h1>
+              <h1>Animales</h1>
               <div className="row_cat">
                 {/*<h1>Animales</h1>
                 <h2>Categorias</h2>*/}
@@ -53,7 +56,7 @@ class Animals extends Component {
 
               </div>
               <div className="row_card">
-                  {this.state.animals.map( (animal) => {
+                  {this.props.animals.map( (animal) => {
                     return ( 
                         <AnimalCard animal = {animal}
                           onAnimalSelect = {this.animalSelected}
@@ -69,9 +72,8 @@ class Animals extends Component {
     constructor(props) {
       super(props);
 
-      this.state = {
-        animals
-      }
+      console.log(this.props);
+      this.animalSelected =  this.animalSelected.bind(this);
 
     }
     onAnimalCardSelect() {
@@ -90,9 +92,14 @@ class Animals extends Component {
     }
     animalSelected(animal) {
       console.log('Recibiendo un animal de animal card', animal)
+      this.props.onAnimalSelected(animal);
     }
 }
 
 
-
-export default Animals;
+const mapStoreToProps = (state) => {
+  return {
+    animals : state.animal.animals
+  }
+}
+export default connect( mapStoreToProps)(Animals);

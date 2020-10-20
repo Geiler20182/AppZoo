@@ -19,6 +19,7 @@ import Mapa from './components/Mapa/Mapa';
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import AnimalsDescription from './components/Animals/AnimalDescription';
 class App extends Component {
 
   render() {
@@ -36,7 +37,11 @@ class App extends Component {
           </Route>
 
           <Route path = '/Animals' exact> 
-            <Animals/>
+            <Animals onAnimalSelected={this.updateAnimal}/>
+          </Route>
+          
+          <Route path = '/Animal' exact> 
+            <AnimalsDescription animal = {this.state.animal} />
           </Route>
 
           <Route path = '/Who' exact>
@@ -70,8 +75,16 @@ class App extends Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      animal : {}
+    }
+    this.updateAnimal = this.updateAnimal.bind(this);
   }
 
+  updateAnimal(animalData) {
+    console.log("Recibiendo el animal en app.js", animalData)
+    this.setState({animal  :  animalData});
+  }
 }
 
 export default App;
