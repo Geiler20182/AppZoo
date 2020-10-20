@@ -1,15 +1,19 @@
 .titulo2 {
     font-family: Tahoma;
     text-align: center;
-    padding-top: 10px;
 }
 
 .texto2 {
     text-align: center;
     padding-top: 13px;
+    margin-top: -15px;
 }
 
 .card-text {
     color :#565856;
     text-align: justify;
+}
+
+.card {
+    margin-top: 30px;
 }
