@@ -42,7 +42,7 @@ class App extends Component {
             <Who></Who>
           </Route>
 
-          <Route path = '/'>
+          <Route path = '/' exact>
           <Seccion1></Seccion1>
           <hr></hr>
           <Seccion2></Seccion2>

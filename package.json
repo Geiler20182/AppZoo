@@ -7,13 +7,18 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.5.2",
+    "classlist.js": "^1.1.20150312",
     "react": "^16.13.1",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.13.1",
+    "react-images": "^1.1.7",
     "react-link": "^1.0.3",
+    "react-photo-gallery": "^8.0.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-switch": "^5.0.1"
+    "react-switch": "^5.0.1",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.1.1",
+    "url-loader": "^4.1.1"
   }
 }
