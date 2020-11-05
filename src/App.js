@@ -29,7 +29,6 @@ class App extends Component {
 
       <div className="">
 
-<<<<<<< HEAD
        <Navbar/>
         {/*
          * 
@@ -37,9 +36,6 @@ class App extends Component {
          <h1>Animales - Mamifero - Ardilla</h1>
          * 
          */}
-=======
-        <Navbar></Navbar>
->>>>>>> 78731a275d546a1b5853b9932edb1af95b8c601a
 
         <Switch>
 
