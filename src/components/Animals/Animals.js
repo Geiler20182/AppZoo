@@ -24,6 +24,11 @@ class Animals extends Component {
 
         return(
             <div>
+<<<<<<< HEAD
+=======
+              <h1 className = "tituloAnimales">Animales - Anfibios</h1>
+              <h1>Animales</h1>
+>>>>>>> 78731a275d546a1b5853b9932edb1af95b8c601a
               <div className="row_cat">
                 {/*
                   Las categorias se establecieron de la sgte manera:
