@@ -19,6 +19,7 @@ import Who from './components/About/Who';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AnimalsDescription from './components/Animals/AnimalDescription';
+
 class App extends Component {
 
   render() {
@@ -28,6 +29,12 @@ class App extends Component {
       <div className="">
 
        <Navbar/>
+        {/*
+         * 
+         * 
+         <h1>Animales - Mamifero - Ardilla</h1>
+         * 
+         */}
 
         <Switch>
 
@@ -39,8 +46,9 @@ class App extends Component {
             <Animals onAnimalSelected={this.updateAnimal}/>
           </Route>
           
-          <Route path = '/Animal' exact> 
-            <AnimalsDescription animal = {this.state.animal} />
+          <Route path = '/Animal/:idAnimal' exact component = {AnimalsDescription} > 
+
+            {/*<AnimalsDescription animal = {this.state.animal} />*/}
           </Route>
 
           <Route path = '/Who' exact>
@@ -70,7 +78,6 @@ class App extends Component {
       </div>
     );  
   }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -79,10 +86,14 @@ class App extends Component {
     this.updateAnimal = this.updateAnimal.bind(this);
   }
 
+  updateCategory(category) {
+    console.log("Actualizando category desde animals, a:", category);
+  }
   updateAnimal(animalData) {
-    console.log("Recibiendo el animal en app.js", animalData)
+    console.log("Recibiendo el animal en app.js", animalData);
     this.setState({animal  :  animalData});
   }
+  
 }
 
 export default App;

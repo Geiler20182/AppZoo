@@ -16,9 +16,9 @@ class AnimalCard extends Component {
                     <div className="slide-img">
                     <img src={this.props.animal.src} alt="1"/>
                     <div className="overlay">
-                    <Link  className="buy-btn" onClick = {this.onAnimalCardSelect}
-                        to = '/Animal' 
-                        >
+                        {/*to = {`/Animal/${this.props.animal.title}`}*/}
+                        <Link  className="buy-btn" onClick = {this.onAnimalCardSelect}
+                         to = {`/Animal/${this.props.animal.id}`}>
                         Saber más!
                     </Link>
                     </div>
