@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import AnimalCard from './AnimalCard';
 import { connect } from 'react-redux';
 import { setAnimal, setCategory } from '../../actions/animal';
-/* Pruebas 
+/* Pruebas
 import animals from './Test';
 */
 
@@ -23,7 +23,7 @@ class Animals extends Component {
     render() {
 
         return(
-            <div>
+            <div className="contenedorAnimal">
               <div className="row_cat">
                 {/*
                   Las categorias se establecieron de la sgte manera:
@@ -67,11 +67,10 @@ class Animals extends Component {
 
               </div>
               <div className="row_card">
-                                                    {/* (animal.id_category == id_category || id_category == 0)*/}
-                                                    
+
                   {this.props.animals.filter(animal => (animal.id_category == this.state.category || this.state.category == 0) ).map( (animal) => {
-                    
-                    return ( 
+
+                    return (
                         <AnimalCard animal = {animal}
                           onAnimalSelect = {this.animalSelected}
                         />
@@ -81,7 +80,7 @@ class Animals extends Component {
               </div>
             </div>
         );
-    } 
+    }
 
 
     constructor(props) {
@@ -103,21 +102,21 @@ class Animals extends Component {
 
     }
     componentDidMount() {
-      
+
       console.log('Did mount!');
     }
 
     componentDidUpdate() {
-      
+
       console.log('Did update');
     }
-    
+
     componentWillUnmount() {
         console.log('Will unmount');
     }
-    
+
     /* Modificar esto */
-    
+
     setCategory0() {
       console.log("Todos");
       this.setState({category :  0});

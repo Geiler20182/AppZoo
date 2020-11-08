@@ -5,16 +5,16 @@
     width: auto;
 }
 .Slider img {
-    width: 459px;
-    height: 374px;
-    padding: 13px 2px;
-    border-radius: 43px;
+  width: 100%;
+  height: 100%;
+  padding: 3% 2%;
+  border-radius: 43px;
 }
 
 .description_animal {
-    width: 1380px;
-    height: 898px;
-    padding: 43px 239px;
+  width: 100%;
+  height: 100%;
+  padding: 5% 3%;
 }
 
 .card {
@@ -46,4 +46,12 @@
     padding: 1px 30px;
     color: #62984d;
     text-align: justify;
+}
+
+@media screen and (min-width:1000px) {
+  .description_animal {
+      width: 93%;
+      height: 89%;
+      padding: 4% 16%;
+  }
 }

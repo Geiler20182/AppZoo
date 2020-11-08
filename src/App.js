@@ -28,13 +28,13 @@ class App extends Component {
     return (
 
       <div className="">
-
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"/>
        <Navbar/>
         {/*
-         * 
-         * 
+         *
+         *
          <h1>Animales - Mamifero - Ardilla</h1>
-         * 
+         *
          */}
 
         <Switch>
@@ -43,11 +43,11 @@ class App extends Component {
             <ZooTienda></ZooTienda>
           </Route>
 
-          <Route path = '/Animals' exact> 
+          <Route path = '/Animals' exact>
             <Animals onAnimalSelected={this.updateAnimal}/>
           </Route>
-          
-          <Route path = '/Animal/:idAnimal' exact component = {AnimalsDescription} > 
+
+          <Route path = '/Animal/:idAnimal' exact component = {AnimalsDescription} >
 
             {/*<AnimalsDescription animal = {this.state.animal} />*/}
           </Route>
@@ -65,20 +65,20 @@ class App extends Component {
           <hr></hr>
           <Seccion4></Seccion4>
           <hr></hr>
-          <Seccion5></Seccion5> 
+          <Seccion5></Seccion5>
           </Route>
 
           <Route path = '/Mapa' exact>
             <Mapa></Mapa>
           </Route>
 
-        
+
         </Switch>
-        
+
        <Footer/>
 
       </div>
-    );  
+    );
   }
   constructor(props) {
     super(props);
@@ -95,7 +95,7 @@ class App extends Component {
     console.log("Recibiendo el animal en app.js", animalData);
     this.setState({animal  :  animalData});
   }
-  
+
 }
 
 export default App;
