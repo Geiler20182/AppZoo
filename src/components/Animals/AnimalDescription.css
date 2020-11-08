@@ -1,0 +1,49 @@
+
+
+.cuadro {
+    height: 1320px;
+    width: auto;
+}
+.Slider img {
+    width: 459px;
+    height: 374px;
+    padding: 13px 2px;
+    border-radius: 43px;
+}
+
+.description_animal {
+    width: 1380px;
+    height: 898px;
+    padding: 43px 239px;
+}
+
+.card {
+    background: #f0fdea;
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight:  200;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 20px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+.card h1 {
+    color:#f36501;
+}
+.card h2 {
+    text-align: left;
+    justify-content: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #279ce0;
+    padding: 1px 31px;
+    font-size: 23px;
+}
+.card p {
+    padding: 1px 30px;
+    color: #62984d;
+    text-align: justify;
+}
