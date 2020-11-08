@@ -16,6 +16,7 @@ import Seccion4 from './components/Home/Secciones/s4/Seccion4'
 import Seccion5 from './components/Home/Secciones/s5/Seccion5'
 import Who from './components/About/Who';
 import Mapa from './components/Mapa/Mapa';
+import Ayuda from './components/Help/Ayuda';
 //import Help from './components/Help'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
@@ -64,7 +65,10 @@ class App extends Component {
             <Mapa></Mapa>
           </Route>
 
-        
+          <Route path = '/Ayuda' exact>
+            <Ayuda></Ayuda>
+          </Route>
+
         </Switch>
         
        <Footer/>

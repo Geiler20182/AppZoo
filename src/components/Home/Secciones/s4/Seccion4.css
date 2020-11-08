@@ -6,7 +6,9 @@
 
 .entradasI {
     margin-top: 15px;
-    margin-left: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
   
 .boton2 {
@@ -19,7 +21,9 @@
     width: 160px;
     cursor: pointer;
     margin-top: 35px;
-    margin-left: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
   
 .boton2:hover {

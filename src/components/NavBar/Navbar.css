@@ -1,5 +1,6 @@
 .fondo {
     background-color: #72bb53;
+    overflow: hidden;
 }
 
 .links {
