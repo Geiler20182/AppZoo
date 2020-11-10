@@ -17,7 +17,7 @@ class Seccion1 extends Component {
                         entre la sociedad. Cuenta con un área total de 25 Hectáreas, aunque el parque como tal solo cuenta 
                         con 9 hectáreas, y el recorrido es de alrededor de 1,5 kilómetros</p>
                 </div>
-                <div className = "col-4"> 
+                <div className = "col-4 a0"> 
                     <img src = {imagen} width = "450" height = "400" className = "imagen1"/>
                 </div>
             </div>

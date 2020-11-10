@@ -6,8 +6,8 @@ class Footer extends Component {
             <footer class="page-footer font-small indigo position-sticky" style = {{'background-color' : ' #e1e2e1', 'margin-top' : '15px'}}>
                 <div class="container text-center text-md-left">
                     <div class="row">
-                        <div class="col-md-3 mx-auto" style = {{'margin-right' : '400px'}}>
-                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4" style = {{'margin-right' : '300px'}}>Imagen de zoológico</h5>
+                        <div class="col-md-3 mx-auto">
+                            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Imagen de zoológico</h5>
                         </div>
 
                         <hr class="clearfix w-100 d-md-none"/>

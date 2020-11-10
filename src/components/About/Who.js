@@ -9,7 +9,7 @@ class Who extends Component {
         return(
             <div>
                 <div className = "row a4">
-                    <div className = "col-8"> 
+                    <div className = "col-8 a41"> 
                         {/* Pendiente de Cambiar la fuente del título */}
                         <h1 className = "t1">¿Quiénes Somos?</h1>
                         <h2>...</h2>
@@ -22,13 +22,13 @@ class Who extends Component {
                         brasiliensis, Papio y Cervidae. Hemos contado con el apoyo de canales televisivos, como animal 
                         planet, para que muestren el compromiso y labor que tenemos con los animales.</p>
                     </div>
-                    <div className = "col-4">
+                    <div className = "col-4 a42">
                         <img src = {imagen} width = "430" height = "360" className = "imgS1"/>
                     </div>
                 </div>
                 <hr></hr>
                 <div className = "row a5">
-                    <div className = "col-8">
+                    <div className = "col-8 a51">
                         <h1 className = "titulo2">Historia del Zoológico</h1>
                         <p>Abrió sus puertas en 1969 bajo la alcaldía de Marino Rengifo Salcedo 
                         y fue administrado en ese entonces por el municipio,5​6​ pero debido a los malos manejos estuvo a 
@@ -41,7 +41,7 @@ class Who extends Component {
                         privado. Pero fue hasta el 1° de octubre de 1981, cuando la Fundación empezó a administrar 
                         el Zoológico de Cali.</p>
                     </div>
-                    <div className = "col-4">
+                    <div className = "col-4 a52">
                         <img src = {imagen2} width = "450" height = "400" className = "imgS2"/>
                     </div>
                 </div>
