@@ -39,8 +39,12 @@ class Animals extends Component {
                   5 : Reptiles
                 */}
                 {/* Cambiar icono */}
+<<<<<<< HEAD
 
                 <Link className="category" onClick={() => this.setCategory(0)} to = '/Animals'>
+=======
+                <Link className="category" onClick={() => this.setCategory(0)} to = {`/Animals`}>
+>>>>>>> aeb9f9ab7b2dbb12d6a2d84c0d904afe31ad1699
                   <img src={Mamifero} />
                   <h2>Todos</h2>
                 </Link>
@@ -96,11 +100,20 @@ class Animals extends Component {
       console.log(this.props);
       this.animalSelected =  this.animalSelected.bind(this);
       this.setCategory = this.setCategory.bind(this);
+<<<<<<< HEAD
       /*this.setCategory1 = this.setCategory1.bind(this);
       this.setCategory2 = this.setCategory2.bind(this);
       this.setCategory3 = this.setCategory3.bind(this);
       this.setCategory4 = this.setCategory4.bind(this);
       this.setCategory5 = this.setCategory5.bind(this);*/
+=======
+      // this.setCategory0 = this.setCategory0.bind(this);
+      // this.setCategory1 = this.setCategory1.bind(this);
+      // this.setCategory2 = this.setCategory2.bind(this);
+      // this.setCategory3 = this.setCategory3.bind(this);
+      // this.setCategory4 = this.setCategory4.bind(this);
+      // this.setCategory5 = this.setCategory5.bind(this);
+>>>>>>> aeb9f9ab7b2dbb12d6a2d84c0d904afe31ad1699
     }
 
     onAnimalCardSelect() {
@@ -120,6 +133,7 @@ class Animals extends Component {
         console.log('Will unmount');
     }
 
+<<<<<<< HEAD
     /* Modificar esto */
 
     setCategory(numero){
@@ -129,8 +143,15 @@ class Animals extends Component {
     /*setCategory0() {
       console.log("Todos");
       this.setState({category :  0});
+=======
+    // Modificar esto
+>>>>>>> aeb9f9ab7b2dbb12d6a2d84c0d904afe31ad1699
 
+    setCategory(numero){
+      console.log(numero);
+      this.setState({category : numero});
     }
+<<<<<<< HEAD
     setCategory1() {
       console.log("Anfibios");
       this.setState({category :  1});
@@ -151,6 +172,34 @@ class Animals extends Component {
       console.log("Reptiles");
       this.setState({category :  5});
     }*/
+=======
+
+    // setCategory0() {
+    //   console.log("Todos");
+    //   this.setState({category :  0});
+
+    // }
+    // setCategory1() {
+    //   console.log("Anfibios");
+    //   this.setState({category :  1});
+    // }
+    // setCategory2() {
+    //   console.log("Aves");
+    //   this.setState({category :  2});
+    // }
+    // setCategory3() {
+    //   console.log("Mamiferos");
+    //   this.setState({category : 3});
+    // }
+    // setCategory4() {
+    //   console.log("Peces");
+    //   this.setState({category :  4});
+    // }
+    // setCategory5() {
+    //   console.log("Reptiles");
+    //   this.setState({category :  5});
+    // } 
+>>>>>>> aeb9f9ab7b2dbb12d6a2d84c0d904afe31ad1699
 
 
     animalSelected(animal) {

@@ -6,11 +6,6 @@ p {
     font-size: 20px;
 }
 
-.columna {
-    float: left;
-    padding: 10px;
-}
-
 .contenido {
     margin-left: 40px;
     text-align: justify;
@@ -22,8 +17,6 @@ p {
 .t1 {
     font-family: Tahoma;
     margin-top: 60px;
-    margin-bottom: 0px;
-    margin-left: 41px;
     color: black;
 }
 
@@ -36,26 +29,22 @@ p {
 }
 
 .imgS1 {
-    margin-top: 80px;
-    margin-left: 50px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 7px solid rgb(201, 196, 196);
 }
 
 .imgS2 {
-    margin-top: 80px;
-    margin-left: 50px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 7px solid rgb(201, 196, 196);
 }
 
-.rowW:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.rowW2:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -72,4 +61,116 @@ p {
     margin-left: 17%;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 360px) {
+    .imgS2 {
+        display: inline;
+        width: 20em;
+        height: auto;
+    }
+    .imgS1 {
+        display: inline;
+        width: 20em;
+        height: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 20em;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 414px) {
+    .imgS2 {
+        display: inline;
+        width: 23em;
+        height: auto;
+    }
+    .imgS1 {
+        display: inline;
+        width: 23em;
+        height: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 25em;
+        height: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 769px) {
+    .imgS2 {
+        display: block;
+        width: 40em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imgS1 {
+        display: block;
+        width: 40em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 45em;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+    .imgS2 {
+        display: block;
+        width: 55em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imgS1 {
+        display: block;
+        width: 55em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 60em;
+        height: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }

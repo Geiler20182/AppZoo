@@ -11,16 +11,16 @@ class Seccion2 extends Component {
             <div>
                 <h1 className = "titulo1">Animales</h1>
                 <p className = "texto1">Visita nuestro mapa del zoológico para encontrar diferentes animales!</p>
-                <div className = "row2">
-                    <div className = "columna2 a1">
+                <div className = "row s2r">
+                    <div className = "col s2p1">
                         <img src = {imagen1} width = "80" height = "80" style = {{'border-radius' : '50%'}}/>
                         <p>Acuáticos</p>
                     </div>
-                    <div className = "columna2 a2">
+                    <div className = "col s2p2">
                         <img src = {imagen2} width = "80" height = "80" style = {{'border-radius' : '50%'}}/>
                         <p>Terrestres</p>
                     </div>
-                    <div className = "columna2 a3">
+                    <div className = "col s2p3">
                         <img src = {imagen3} width = "80" height = "80" style = {{'border-radius' : '50%'}}/>
                         <p>Aves</p>
                     </div>

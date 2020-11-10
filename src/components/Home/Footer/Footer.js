@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return(
-            <footer class="page-footer font-small indigo" style = {{'background-color' : ' #e1e2e1', 'margin-top' : '15px'}}>
+            <footer class="page-footer font-small indigo position-sticky" style = {{'background-color' : ' #e1e2e1', 'margin-top' : '15px'}}>
                 <div class="container text-center text-md-left">
                     <div class="row">
                         <div class="col-md-3 mx-auto" style = {{'margin-right' : '400px'}}>
@@ -16,7 +16,7 @@ class Footer extends Component {
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Dirección</h5>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Dirección 1</a>
+                                    <a href="#!">Cra. 2 west, Cl. 14, Cali, Valle del Cauca</a>
                                 </li>
                                 <li>
                                     <a href="#!">Dirección 2</a>
@@ -36,7 +36,7 @@ class Footer extends Component {
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Teléfono</h5>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">3206481025</a>
+                                    <a href="#!">+57 24880888</a>
                                 </li>
                                 <li>
                                     <a href="#!">036 2458794</a>
@@ -50,7 +50,7 @@ class Footer extends Component {
                             <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Email</h5>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Link 1</a>
+                                    <a href="#!">http://www.zoologicodecali.com.co/</a>
                                 </li>
                                 <li>
                                     <a href="#!">Link 2</a>

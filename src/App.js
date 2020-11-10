@@ -16,7 +16,7 @@ import Seccion4 from './components/Home/Secciones/s4/Seccion4'
 import Seccion5 from './components/Home/Secciones/s5/Seccion5'
 import Who from './components/About/Who';
 import Mapa from './components/Mapa/Mapa';
-//import Help from './components/Help'
+import Ayuda from './components/Help/Ayuda';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import AnimalsDescription from './components/Animals/AnimalDescription';
@@ -29,7 +29,7 @@ class App extends Component {
 
       <div className="">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"/>
-       <Navbar/>
+       <Navbar></Navbar>
         {/*
          *
          *
@@ -57,24 +57,26 @@ class App extends Component {
           </Route>
 
           <Route path = '/' exact>
-          <Seccion1></Seccion1>
-          <hr></hr>
-          <Seccion2></Seccion2>
-          <hr></hr>
-          <Seccion3></Seccion3>
-          <hr></hr>
-          <Seccion4></Seccion4>
-          <hr></hr>
-          <Seccion5></Seccion5>
+            <Seccion1></Seccion1>
+            <hr></hr>
+            <Seccion2></Seccion2>
+            <hr></hr>
+            <Seccion3></Seccion3>
+            <hr></hr>
+            <Seccion4></Seccion4>
+            <hr></hr>
+            <Seccion5></Seccion5>
           </Route>
 
           <Route path = '/Mapa' exact>
             <Mapa></Mapa>
           </Route>
 
-
+          <Route path = '/Ayuda' exact>
+            <Ayuda></Ayuda>
+          </Route>
         </Switch>
-
+        
        <Footer/>
 
       </div>

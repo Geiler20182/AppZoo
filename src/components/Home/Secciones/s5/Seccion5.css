@@ -25,9 +25,11 @@
     text-decoration: none;
     cursor: pointer;
     border-radius: 50px;
-    margin-left: 44.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     margin-top: 15px;
-    width: 10%;
+    width: 160px;
 }
 
 .boton4:hover {
