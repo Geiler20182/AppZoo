@@ -61,7 +61,7 @@ class Navbar extends Component {
     constructor(props) {
         super(props);
     }
-    
+
     componentDidMount() {
         console.log('Did mount!');
     }
@@ -69,7 +69,7 @@ class Navbar extends Component {
     componentDidUpdate() {
         console.log('Did update');
     }
-    
+
     componentWillUnmount() {
         console.log('Will unmount');
     }

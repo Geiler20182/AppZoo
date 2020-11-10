@@ -17,3 +17,13 @@
 .card {
     margin-top: 30px;
 }
+
+.noticias {
+  width: auto;
+  height: auto;
+}
+.a3 {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
