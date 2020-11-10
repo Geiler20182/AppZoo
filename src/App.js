@@ -76,7 +76,7 @@ class App extends Component {
             <Ayuda></Ayuda>
           </Route>
         </Switch>
-        
+
        <Footer/>
 
       </div>

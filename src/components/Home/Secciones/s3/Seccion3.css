@@ -15,7 +15,58 @@
 }
 
 .card {
-    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+
+@media (max-width: 360px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 83%;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 415px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 85%;
+    }
+}
+
+@media (min-width: 416px) and (max-width: 769px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+    }
+    .card-text {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1024px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+    .card-text {
+        font-size: 25px;
+    }
+}
+
+.a3 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .noticias {

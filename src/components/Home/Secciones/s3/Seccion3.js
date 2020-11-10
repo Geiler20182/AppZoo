@@ -9,7 +9,7 @@ class Seccion3 extends Component {
                 <h1 className = "titulo2">NOTICIAS</h1>
                 <p className = 'texto2'>Aquí encontrarás diferente información sobre las noticias que pasa en nuestro zoológico.</p>
                 <div className = "row a3">
-                    <div class="card border-success mb-3" >
+                    <div class="card border-success mb-3">
                         <div class="card-header">NUEVOS ANIMALES EN EL ZOO!</div>
                         <div class="card-body text-success">
                             <h5 class="card-title">Noticia</h5>
@@ -17,7 +17,7 @@ class Seccion3 extends Component {
                             <p><Link to = "/">Ver más...</Link></p>
                         </div>
                     </div>
-                    <div class="card border-success mb-3" >
+                    <div class="card border-success mb-3">
                         <div class="card-header">LOS BUHOS</div>
                         <div class="card-body text-success">
                             <h5 class="card-title">Noticia</h5>
