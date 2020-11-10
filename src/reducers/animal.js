@@ -37,6 +37,7 @@ let initialState = {
             /* Seccion de fotos (para la descripcion) */
             photos : []
         },
+
         {
             id : 2,
             src : "https://static.iris.net.co/sostenibilidad/upload/images/2020/4/10/49833_1.jpg",
@@ -45,10 +46,11 @@ let initialState = {
             scientific_name : "Struthio camelus",
             description_1 : "Es el ave más grande y de mayor peso del mundo. Cuando nacen los polluelos miden entre 25 y 30 cm de altura, pesando unos 900 g. Durante el primer año de vida los polluelos crecen unos 25 cm al mes. Los machos adultos pueden llegar a alcanzar los 2,75 o incluso 3 metros, y pesar alrededor de 180 kg.",
             description_2 : "El avestruz, al igual que todas las aves, carece de dientes y presenta escasa movilidad en la lengua, por lo que no realiza masticación alguna sobre lo que ingiere. Coge el alimento con el pico y lo hace avanzar hacia la apertura del esófago.",
-            description_3 : "Su comportamiento reproductivo es muy variable, dependiendo de la densidad de población, las condiciones climáticas y el hábitat.9​ Los machos alcanzan la madurez alrededor de los 3 años de edad. Las hembras, si están bien alimentadas, pueden alcanzar esta madurez unos 6 meses antes.",
+            description_3 : "Su comportamiento reproductivo es muy variable, dependiendo de la densidad de población, las condiciones climáticas y el hábitat.9​ Los machos alcanzan la madurez alrededor de los 3 años de edad. Las hembras, si están bien alimentadas, pueden alcanzar esta madurez unos 6 meses antes. pepeneneneenenene nen en nen en nen ne ne nen nen ennew nen nneen ",
             id_category : 2,
             photos : []
         },
+
         {
             id : 3,
             src : "https://pbs.twimg.com/media/DEO0JCNXoAQ3ApX.jpg",
@@ -61,6 +63,7 @@ let initialState = {
             id_category : 1,
             photos : []
         },
+
         {
             id : 4,
             src : "https://www.pecesdeacuarios.net/wp-content/uploads/2018/05/pez-disco-Symphysodon-discus.jpg",
@@ -73,6 +76,7 @@ let initialState = {
             id_category : 4,
             photos : []
         },
+
         {
             id : 5,
             src : "https://www.lavanguardia.com/r/GODO/LV/p7/WebSite/2020/07/01/Recortada/img_npalou_20200701-153028_imagenes_lv_otras_fuentes_croc-768x512-k3u-U482045242561hJH-992x558@LaVanguardia-Web.png",

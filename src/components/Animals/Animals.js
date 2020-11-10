@@ -35,32 +35,32 @@ class Animals extends Component {
                   5 : Reptiles
                 */}
                 {/* Cambiar icono */}
-                <Link className="category" onClick={this.setCategory0} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(0)} to = {`/Animals`}>
                   <img src={Mamifero} />
                   <h2>Todos</h2>
                 </Link>
 
-                <Link className="category" onClick={this.setCategory1} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(1)} to = '/Animals'>
                   <img src={Anfibio} />
                   <h2>Anfibios</h2>
                 </Link>
 
-                <Link className="category" onClick={this.setCategory2} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(2)} to = '/Animals'>
                   <img src={Ave} />
                   <h2> Aves</h2>
                 </Link>
 
-                <Link className="category" onClick={this.setCategory3} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(3)} to = '/Animals'>
                   <img src={Mamifero} />
                   <h2>Mamiferos</h2>
                 </Link>
 
-                <Link className="category" onClick={this.setCategory4} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(4)} to = '/Animals'>
                   <img src={Pez} />
                   <h2>Peces</h2>
                 </Link>
 
-                <Link className="category" onClick={this.setCategory5} to = '/Animals'>
+                <Link className="category" onClick={() => this.setCategory(5)} to = '/Animals'>
                   <img src={Reptil} />
                   <h2>Reptiles</h2>
                 </Link>
@@ -90,12 +90,13 @@ class Animals extends Component {
       }
       console.log(this.props);
       this.animalSelected =  this.animalSelected.bind(this);
-      this.setCategory0 = this.setCategory0.bind(this);
-      this.setCategory1 = this.setCategory1.bind(this);
-      this.setCategory2 = this.setCategory2.bind(this);
-      this.setCategory3 = this.setCategory3.bind(this);
-      this.setCategory4 = this.setCategory4.bind(this);
-      this.setCategory5 = this.setCategory5.bind(this);
+      this.setCategory = this.setCategory.bind(this);
+      // this.setCategory0 = this.setCategory0.bind(this);
+      // this.setCategory1 = this.setCategory1.bind(this);
+      // this.setCategory2 = this.setCategory2.bind(this);
+      // this.setCategory3 = this.setCategory3.bind(this);
+      // this.setCategory4 = this.setCategory4.bind(this);
+      // this.setCategory5 = this.setCategory5.bind(this);
     }
 
     onAnimalCardSelect() {
@@ -115,33 +116,38 @@ class Animals extends Component {
         console.log('Will unmount');
     }
 
-    /* Modificar esto */
+    // Modificar esto
 
-    setCategory0() {
-      console.log("Todos");
-      this.setState({category :  0});
+    setCategory(numero){
+      console.log(numero);
+      this.setState({category : numero});
+    }
 
-    }
-    setCategory1() {
-      console.log("Anfibios");
-      this.setState({category :  1});
-    }
-    setCategory2() {
-      console.log("Aves");
-      this.setState({category :  2});
-    }
-    setCategory3() {
-      console.log("Mamiferos");
-      this.setState({category : 3});
-    }
-    setCategory4() {
-      console.log("Peces");
-      this.setState({category :  4});
-    }
-    setCategory5() {
-      console.log("Reptiles");
-      this.setState({category :  5});
-    }
+    // setCategory0() {
+    //   console.log("Todos");
+    //   this.setState({category :  0});
+
+    // }
+    // setCategory1() {
+    //   console.log("Anfibios");
+    //   this.setState({category :  1});
+    // }
+    // setCategory2() {
+    //   console.log("Aves");
+    //   this.setState({category :  2});
+    // }
+    // setCategory3() {
+    //   console.log("Mamiferos");
+    //   this.setState({category : 3});
+    // }
+    // setCategory4() {
+    //   console.log("Peces");
+    //   this.setState({category :  4});
+    // }
+    // setCategory5() {
+    //   console.log("Reptiles");
+    //   this.setState({category :  5});
+    // } 
 
 
     animalSelected(animal) {
