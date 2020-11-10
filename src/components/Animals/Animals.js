@@ -23,7 +23,11 @@ class Animals extends Component {
     render() {
 
         return(
+
             <div className="contenedorAnimal">
+              <br/>
+              <br/>
+
               <div className="row_cat">
                 {/*
                   Las categorias se establecieron de la sgte manera:
@@ -64,8 +68,8 @@ class Animals extends Component {
                   <img src={Reptil} />
                   <h2>Reptiles</h2>
                 </Link>
-
               </div>
+
               <div className="row_card">
 
                   {this.props.animals.filter(animal => (animal.id_category == this.state.category || this.state.category == 0) ).map( (animal) => {
