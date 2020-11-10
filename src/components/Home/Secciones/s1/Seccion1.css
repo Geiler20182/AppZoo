@@ -23,11 +23,14 @@ p {
         height: auto;
     }
     .a1 {
-        display: inline !important;
+        display: block !important;
+        margin-right: auto;
+        margin-left: auto;
     }
     .a2 {
         text-align: left;
         padding-left: 2em;
+        margin-left: 12%;
     }
 }
 
@@ -38,11 +41,14 @@ p {
         height: auto;
     }
     .a1 {
-        display: inline !important;
+        display: block !important;
+        margin-right: auto;
+        margin-left: auto;
     }
     .a2 {
-        text-align: justify;
+        text-align: center;
         padding-left: 2em;
+        margin-left: 12%;
     }
 }
 
@@ -53,11 +59,14 @@ p {
         height: auto;
     }
     .a1 {
-        display: inline !important;
+        display: block !important;
+        margin-left: 6%;
+        margin-right: auto;
     }
     .a2 {
         text-align: justify;
         padding-left: 2em;
+        margin-left: 10%;
     }
 }
 
@@ -68,11 +77,14 @@ p {
         height: auto;
     }
     .a1 {
-        display: inline !important;
+        display: block !important;
+        margin-right: auto;
+        margin-left: 2%;
     }
     .a2 {
         text-align: justify;
         padding-left: 2em;
+        margin-left: 14%;
     }
 }
 
@@ -89,4 +101,3 @@ p {
     display: table;
     clear: both;
 }
-
