@@ -10,16 +10,14 @@ class AnimalCard extends Component {
     render () {
 
         return (
-            <div className="column">
-                <div className="box">
-                <div>
+                <div className="box_card">
                     <div className="slide-img">
                     <img src={this.props.animal.src} alt="1"/>
                     <div className="overlay">
                         {/*to = {`/Animal/${this.props.animal.title}`}*/}
                         <Link  className="buy-btn" onClick = {this.onAnimalCardSelect}
                          to = {`/Animal/${this.props.animal.id}`}>
-                        Saber más!
+                        <h>Saber más!</h>
                     </Link>
                     </div>
                     </div>
@@ -29,8 +27,6 @@ class AnimalCard extends Component {
                         <span>{this.props.animal.leyenda}</span>
                     </div>
                 </div>
-                </div>
-           </div>
         );
     }
 
@@ -42,9 +38,9 @@ class AnimalCard extends Component {
 
     onAnimalCardSelect() {
         this.props.setAnimal(this.props.animal);
-        
+
         //this.props.onAnimalSelect(this.props.animal);
-    
+
     }
 
 }

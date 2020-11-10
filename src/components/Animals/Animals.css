@@ -17,21 +17,21 @@ a:hover {
     width: 220px;
     height: 211px;
 }
-  
 
-.box{
-	width:210px;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
-	border-radius: 10px;
-	overflow: hidden;
-    margin: 25px;
-    /*----*/
-    height: 203px;
+
+.box_card {
+      box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 1%;
+      /* height: 203px; */
+      width: 30%;
+      height: 41%;
 }
 .slide-img{
-    height: 152px;
-    position: relative;
-    width: 210px;
+  /* height: 152px; */
+  position: relative;
+  /* width: 210px;*/
 }
 .slide-img img{
 	width:100%;
@@ -51,22 +51,18 @@ display: flex;
 .type{
 	display: flex;
 	flex-direction: column;
+  text-align: center;
 }
 .type a{
-	/*color:#222222;
-	margin: 5px 0px;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-    padding-right: 8px;*/
-    height: 15px;
-    color: #f36501;
-    margin: 2px 9px;
-    letter-spacing: 0.5px;
-    padding-right: 5px;
+  height: 15px;
+      color: #f36501;
+      margin: 0% 2%;
+      font-size: 160%;
 }
 .type span{
-    padding: 2px 9px;
-	color:rgba(26,26,26,0.5);
+  padding: 3%;
+  color: rgba(26,26,26,0.5);
+  font-size: 162%;
 }
 
 
@@ -82,19 +78,23 @@ display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.buy-btn{
-    width: 106px;
-    height: 30px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #FFFFFF;
-	color:#f36501;
-	font-weight:  200;
-	letter-spacing: 1px;
-	font-family: calibri;
-	border-radius: 20px;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+.overlay a {
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  color: #f36501;
+  /* font-weight: 200; */
+  letter-spacing: 1px;
+  /* font-family: calibri; */
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+
+.overlay  h {
+    font-size: 148%;
 }
 .buy-btn:hover{
 	color:#FFFFFF;
@@ -108,7 +108,7 @@ display: flex;
 	visibility: visible;
 	animation:fade 0.5s;
 }
- 
+
 @keyframes fade{
 	0%{
 		opacity: 0;
@@ -126,10 +126,9 @@ display: flex;
 }
 
 .category {
-    width: 100px;
     padding: 7px;
   }
-  
+
 .category img {
     opacity: 0.8;
     cursor: pointer;
@@ -146,19 +145,80 @@ opacity: 1;
     flex-wrap: wrap;
     /* margin-right: -15px; */
     /* margin-left: -15px; */
-    padding: 2px 74px;
-	text-align: center;
+    /*padding: 2px 74px;*/
+	/*text-align: center;*/
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+
 }
 .row_cat {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 1rem;
-    padding: 6px 374px;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+    justify-content: center;
+  /* width: 100%; */
+  /* box-sizing: border-box;*/
 }
 
-h2 {
-    text-decoration:none !important;
-    font-size: 1rem;
-}  
+.contenedorAnimal {
+  width: 100%;
+}
+/* Aplicando responsive */
+@media screen and (max-width: 700px) and (min-width:321px){
+  .row_cat img {
+    vertical-align: middle;
+    border-style: none;
+    /* width: 20%; */
+    max-width: 37px;
+    max-height: 35px;
+  }
+  .row_cat h2 {
+        font-size: 0.8rem;
+  }
+  .buy-btn  h {
+        font-size: 42%;
+  }
+  .type a {
+    font-size: 76%;
+  }
+  .type span {
+    font-size: 50%;
+  }
+}
 
+@media screen and (max-width:1000px )  and (min-width:700px){
+  .buy-btn h {
+    font-size: 80%;
+}
+}
+@media screen and (max-width: 320px) and (min-width: 100px) {
+
+  .row_cat img {
+    vertical-align: middle;
+    border-style: none;
+    /* width: 20%; */
+    max-width: 37px;
+    max-height: 35px;
+  }
+  .row_cat h2 {
+    font-size: 0.5rem;
+  }
+  .category {
+    padding: 3px;
+  }
+  .buy-btn h {
+      font-size: 15%;
+  }
+  .type a {
+    font-size: 59%;
+  }
+  .type span {
+    font-size: 48%;
+  }
+}
+
+
+.row_cat h2 {
+    text-decoration:none !important;
+}
