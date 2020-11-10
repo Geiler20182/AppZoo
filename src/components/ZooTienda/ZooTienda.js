@@ -9,7 +9,8 @@ class ZooTienda extends Component {
             <div>
                 <div className = "row a6">
                     <div className = "col-sm-8">
-                        <h1>ZooTienda</h1>
+                        <h1 className = "t6">ZooTienda</h1>
+                        <p>...</p>
                         <p>Entrada León! Roarrr. Esta entrada cuenta con todo
                            el plan incluido para los niños que quieran aprender
                            todo a cerca del zoológico.</p>
@@ -32,7 +33,7 @@ class ZooTienda extends Component {
                 </div>
                 <hr></hr>
                 <div className = "row a7">
-                    
+
                 </div>
             </div>
         );
