@@ -132,8 +132,8 @@ display: flex;
 .category img {
     opacity: 0.8;
     cursor: pointer;
-    width: 85px;
-    height: 85px;
+    width: 71px;
+    height: 71px;
 }
 
 .category img:hover {
@@ -152,7 +152,11 @@ opacity: 1;
   justify-content: center;
 
 }
+.row_cat h2 {
+  font-size: 1rem;
+}
 .row_cat {
+
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -186,6 +190,7 @@ opacity: 1;
     font-size: 50%;
   }
 }
+
 
 @media screen and (max-width:1000px )  and (min-width:700px){
   .buy-btn h {
@@ -221,4 +226,12 @@ opacity: 1;
 
 .row_cat h2 {
     text-decoration:none !important;
+}
+
+.cuadro_busqueda {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

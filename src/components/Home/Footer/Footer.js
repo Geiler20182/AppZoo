@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
     render() {
         return(
-            <footer class="page-footer font-small indigo" style = {{'background-color' : ' #e1e2e1', 'margin-top' : '15px'}}>
+            <footer class="page-footer font-small indigo position-sticky" style = {{'background-color' : ' #e1e2e1', 'margin-top' : '15px'}}>
                 <div class="container text-center text-md-left">
                     <div class="row">
                         <div class="col-md-3 mx-auto" style = {{'margin-right' : '400px'}}>
