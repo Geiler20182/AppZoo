@@ -9,16 +9,13 @@
     margin-top: -15px;
 }
 
-.card-text {
-    color :#565856;
-    text-align: justify;
-}
-
 .c1 {
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 30%;
+    color :#565856;
+    text-align: justify;
 }
 
 @media (max-width: 360px) {
@@ -27,6 +24,7 @@
         margin-right: auto;
         display: block;
         width: 83%;
+        font-size: 25px;
     }
 }
 
@@ -36,6 +34,7 @@
         margin-right: auto;
         display: block;
         width: 85%;
+        font-size: 25px;
     }
 }
 
@@ -45,8 +44,6 @@
         margin-right: auto;
         display: block;
         width: 90%;
-    }
-    .card-text {
         font-size: 25px;
     }
 }
@@ -57,8 +54,6 @@
         margin-right: auto;
         display: block;
         width: 80%;
-    }
-    .card-text {
         font-size: 25px;
     }
 }
@@ -72,9 +67,4 @@
 .noticias {
   width: auto;
   height: auto;
-}
-.a3 {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
 }

@@ -73,3 +73,10 @@
     margin-right: auto;
     display: block;
 }
+
+@media (max-width: 1025px) {
+    .imagenP {
+        width: 0;
+        height: 0;
+    }
+}
