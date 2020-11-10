@@ -62,3 +62,115 @@ p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+@media (max-width: 360px) {
+    .imgS2 {
+        display: inline;
+        width: 20em;
+        height: auto;
+    }
+    .imgS1 {
+        display: inline;
+        width: 20em;
+        height: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 20em;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 414px) {
+    .imgS2 {
+        display: inline;
+        width: 23em;
+        height: auto;
+    }
+    .imgS1 {
+        display: inline;
+        width: 23em;
+        height: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 25em;
+        height: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 769px) {
+    .imgS2 {
+        display: block;
+        width: 40em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imgS1 {
+        display: block;
+        width: 40em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 45em;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+    .imgS2 {
+        display: block;
+        width: 55em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .imgS1 {
+        display: block;
+        width: 55em;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .a4 {
+        display: inline;
+    }
+    .a5 {
+        display: inline;
+    }
+    .videoZoo {
+        width: 60em;
+        height: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}

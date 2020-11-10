@@ -43,7 +43,7 @@
 }
 
 .boton {
-    display: inline-block;
+    display: block;
     border-radius: 30px;
     background-color: #29323d;
     border: none;
@@ -58,7 +58,8 @@
     font-weight: bold;
     font-family: Tahoma;
     margin-top: 40px;
-    margin-left: 42%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boton span {

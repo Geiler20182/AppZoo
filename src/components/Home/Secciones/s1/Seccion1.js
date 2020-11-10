@@ -5,8 +5,8 @@ import imagen from './zoo.png'
 class Seccion1 extends Component {
     render() {
         return(
-            <div className = "row">
-                <div className = "col-8">
+            <div className = "row a1">
+                <div className = "col-8 a2">
                     <h1 className = "t1">Zoológico de Cali</h1>
                     <h2>...</h2>
                     <p>El zoológico de Cali es un parque zoológico 

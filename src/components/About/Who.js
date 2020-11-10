@@ -8,7 +8,7 @@ class Who extends Component {
     render() {
         return(
             <div>
-                <div className = "row">
+                <div className = "row a4">
                     <div className = "col-8"> 
                         {/* Pendiente de Cambiar la fuente del título */}
                         <h1 className = "t1">¿Quiénes Somos?</h1>
@@ -27,7 +27,7 @@ class Who extends Component {
                     </div>
                 </div>
                 <hr></hr>
-                <div className = "row">
+                <div className = "row a5">
                     <div className = "col-8">
                         <h1 className = "titulo2">Historia del Zoológico</h1>
                         <p>Abrió sus puertas en 1969 bajo la alcaldía de Marino Rengifo Salcedo 

@@ -8,7 +8,7 @@ class Seccion3 extends Component {
             <div>
                 <h1 className = "titulo2">NOTICIAS</h1>
                 <p className = 'texto2'>Aquí encontrarás diferente información sobre las noticias que pasa en nuestro zoológico.</p>
-                <div className = "row">
+                <div className = "row a3">
                     <div class="card border-success mb-3" style={{"max-width": "18rem", "margin-right" : "140px", "margin-left" : "210px"}}>
                         <div class="card-header">NUEVOS ANIMALES EN EL ZOO!</div>
                         <div class="card-body text-success">
