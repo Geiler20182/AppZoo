@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import './AnimalDescription.css'
-import { getAnimal } from '../../actions/animal'; 
+import { getAnimal } from '../../actions/animal';
 import fondo from './categorias/fondo-description.png';
 
 class AnimalsDescription extends Component {
@@ -20,10 +20,10 @@ class AnimalsDescription extends Component {
                         </div>
                         <div >
                             <h1>{this.props.animal.title}</h1>
-                            
+
                         </div>
                         <div >
-                            <h2>Nombre cientifico</h2> 
+                            <h2>Nombre cientifico</h2>
                             <p>{this.props.animal.scientific_name} </p>
                             <h2>Descripción</h2>
                             <p>{this.props.animal.description_1}</p>
@@ -33,7 +33,7 @@ class AnimalsDescription extends Component {
                             <p>{this.props.animal.description_3}</p>
                         </div>
                     </div>
-                
+
                 </div>
             </div>
 
@@ -42,7 +42,7 @@ class AnimalsDescription extends Component {
 
     constructor(props) {
         super(props);
-       
+
         console.log(this.props);
     }
 

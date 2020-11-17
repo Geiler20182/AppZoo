@@ -20,18 +20,19 @@ a:hover {
 
 
 .box_card {
-      box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
       border-radius: 10px;
       overflow: hidden;
       margin: 1%;
       /* height: 203px; */
       width: 30%;
-      height: 41%;
+      /* height: 41%;*/
 }
 .slide-img{
   /* height: 152px; */
   position: relative;
-  /* width: 210px;*/
+  /* width: 210px; */
+  height: 80%;
 }
 .slide-img img{
 	width:100%;

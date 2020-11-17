@@ -18,33 +18,33 @@
 }
 
 .card {
-    background: #f0fdea;
+    background: #ffffff;
     text-align: center;
     border-radius: 18px;
     display: flex;
-	justify-content: center;
-	align-items: center;
-	font-weight:  200;
-	letter-spacing: 1px;
-	font-family: calibri;
-	border-radius: 20px;
-	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	   justify-content: center;
+  	align-items: center;
+  	font-weight:  200;
+  	letter-spacing: 1px;
+  	font-family: calibri;
+  	border-radius: 20px;
+  	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
 }
 .card h1 {
-    color:#f36501;
+    color: #72bb53;
 }
 .card h2 {
     text-align: left;
     justify-content: center;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #279ce0;
+    color: #2700ff;
     padding: 1px 31px;
     font-size: 23px;
 }
 .card p {
     padding: 1px 30px;
-    color: #62984d;
+    color: #000000;
     text-align: justify;
 }
 
