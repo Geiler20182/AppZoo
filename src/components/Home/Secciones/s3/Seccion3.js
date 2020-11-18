@@ -6,7 +6,7 @@ class Seccion3 extends Component {
     render() {
         return(
             <div className="noticias">
-                <h1 className = "titulo2">NOTICIAS</h1>
+                <h1 className = "titulo22">NOTICIAS</h1>
                 <p className = 'texto2'>Aquí encontrarás diferente información sobre las noticias que pasa en nuestro zoológico.</p>
                 <div className = "row a3">
                     <div class="card border-success mb-3 c1">
