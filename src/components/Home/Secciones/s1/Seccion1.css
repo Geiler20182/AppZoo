@@ -73,7 +73,7 @@ p {
 @media (min-width: 770px) and (max-width: 1025px) {
     .imagen1 {
         display: inline;
-        width: 60em;
+        width: 45em;
         height: auto;
     }
     .a1 {

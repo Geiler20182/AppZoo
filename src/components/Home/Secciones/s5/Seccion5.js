@@ -10,7 +10,7 @@ class Seccion5 extends Component {
                 <p className = "texto4">Esta es la infomación para contribuir con la ayuda del
                    zoológico. Ya que como es una prueba se está midiendo el espacio entre las
                    márgenes de toda la app.</p>
-                <Link to = "/"><button className = "boton4"><span>Ayudar</span></button></Link>
+                <Link to = "/Ayuda"><button className = "boton4"><span>Ayudar</span></button></Link>
             </div>
         );
     }

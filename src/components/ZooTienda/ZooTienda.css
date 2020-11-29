@@ -74,6 +74,40 @@
     display: block;
 }
 
+.t1p {
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.imagen1P {
+    height: 160px;
+    width: 190px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.te {
+    text-align: center;
+    
+}
+
+.secZ {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.t2p {
+    font-family: Tahoma;
+    text-align: center;
+}
+
+.a78 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 @media (max-width: 1025px) {
     .imagenP {
         width: 0;

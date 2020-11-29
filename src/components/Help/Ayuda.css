@@ -1,0 +1,204 @@
+.a10 {
+    margin-left: 2%;
+    text-align: justify;
+    margin-right: 5%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.a11 {
+    margin-bottom: 5%;
+}
+
+.at1 {
+    font-family: Tahoma;
+    margin-bottom: 2%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.imagenA {
+    height: 250px;
+    width: 400px;
+    border: 5px solid black;
+}
+
+.imgA1 {
+    margin-left: auto;
+    display: block;
+}
+
+.botonA1 {
+    background-color: white;
+    border: 2px solid #4CAF50;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 25px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    width: 180px;
+}
+
+.botonA2 {
+    display: none;
+    visibility: hidden;
+}
+
+.botonA1:hover {
+    background-color:#4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+@media(max-width: 360px) {
+    .imagenA {
+        height: 180px;
+        width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .botonA1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .videoZoo {
+        width: 20em;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 415px) {
+    .imagenA {
+        height: 180px;
+        width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .botonA1 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .videoZoo {
+        width: 22em;
+        height: 15em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 416px) and (max-width: 769px) {
+    .imagenA {
+        height: 200px;
+        width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .botonA1 {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .imgA2 {
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .botonA2 {
+        background-color: white;
+        border: 2px solid #4CAF50;
+        color: black;
+        padding: 10px 32px;
+        text-align: center;
+        font-size: 25px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-left: 15%;
+        margin-top: -17%;
+        margin-bottom: 16%;
+        width: 180px;
+        display: block;
+        visibility: visible;
+    }
+    .botonA2:hover {
+        background-color:#4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+    .videoZoo {
+        width: 40em;
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+    .imagenA {
+        height: 200px;
+        width: 320px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .botonA1 {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .imgA2 {
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .botonA2 {
+        background-color: white;
+        border: 2px solid #4CAF50;
+        color: black;
+        padding: 10px 32px;
+        text-align: center;
+        font-size: 25px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 50px;
+        margin-left: 15%;
+        margin-top: -17%;
+        margin-bottom: 16%;
+        width: 180px;
+        display: block;
+        visibility: visible;
+    }
+    .botonA2:hover {
+        background-color:#4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+    .videoZoo {
+        width: 47em;
+        height: 40em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
