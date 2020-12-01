@@ -5,10 +5,7 @@ import { connect } from 'react-redux';
 import { setAnimal } from '../../actions/animal';
 
 class AnimalCard extends Component {
-
-
     render () {
-
         return (
                 <div className="box_card">
                     <div className="slide-img">
@@ -38,7 +35,8 @@ class AnimalCard extends Component {
 
     onAnimalCardSelect() {
         this.props.setAnimal(this.props.animal);
-
+        console.log(this.props.animal)
+        console.log(this.props.id_category);
         //this.props.onAnimalSelect(this.props.animal);
 
     }
@@ -49,4 +47,10 @@ const mapStateToActions = {
     setAnimal
 };
 
-export default connect(null, mapStateToActions )(AnimalCard);
+const mapStoreToProps = (state) => {
+    return {
+      animals : state.animal.animals,
+    }
+}
+
+export default connect(mapStoreToProps, mapStateToActions )(AnimalCard);
