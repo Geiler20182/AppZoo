@@ -1,0 +1,23 @@
+.DS_Store
+/node_modules
+
+# Archivos relacionados a variables de entorno
+.env.local
+.env.*.local
+.env.dev
+.env.qa
+.env.prod
+
+# Archivos de tipo log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos y directorios del editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
