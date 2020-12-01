@@ -6,12 +6,8 @@ import { getAnimal } from '../../actions/animal';
 import fondo from './categorias/fondo-description.png';
 
 class AnimalsDescription extends Component {
-
-
     render () {
-
         return (
-
             <div className="cuadro">
                 <div className="description_animal">
                     <div className="card">
@@ -47,20 +43,25 @@ class AnimalsDescription extends Component {
     }
 
     componentDidMount() {
-
         const idAnimal = this.props.match.params.idAnimal;
-        this.props.getAnimal(idAnimal);
-
         console.log(idAnimal);
+        this.props.getAnimal(idAnimal);
+        console.log(this.props.animal);
+        console.log(idAnimal);
+        console.log("Ete sech en animal descrption")
+        // console.log(this.props.match.params);
+        // console.log("pepepene")
     }
 }
 
 const mapActionToProps = {getAnimal};
 
 const mapStateToProps = (state) => {
-
+    console.log(state.animal.animal);
+    console.log("mamahuevaso")
     return {
         animal : state.animal.animal
     }
 }
+
 export default connect(mapStateToProps, mapActionToProps)(AnimalsDescription);
