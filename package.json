@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.21.0",
     "bootstrap": "^4.5.2",
     "classlist.js": "^1.1.20150312",
     "pg": "^8.5.1",
@@ -50,5 +51,6 @@
   "devDependencies": {
     "file-loader": "^6.1.1",
     "url-loader": "^4.1.1"
-  }
+  },
+  "proxy": "http://localhost:5000/"
 }
