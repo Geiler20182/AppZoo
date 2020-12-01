@@ -17,7 +17,6 @@ import Mamifero from './categorias/Manifero.png';
 import Pez from './categorias/Pez.png';
 import Reptil from './categorias/Reptil.png';
 
-
 class Animals extends Component {
 
     render() {
